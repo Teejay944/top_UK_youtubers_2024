@@ -276,9 +276,18 @@ HAVING
 
 ```
 ### Output
-![Duplicate count check](assets/images/4_duplicate_records_check.png)
+![Duplicate count check](assets/images/DUPLICATE RECORD.png)
+
+# Visualization 
 
 
+## Results
+
+- What does the dashboard look like?
+
+![GIF of Power BI Dashboard](assets/images/top_uk_youtubers_2024.gif)
+
+This shows the Top UK Youtubers in 2024 so far.
 
 # Header
 
