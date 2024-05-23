@@ -1,4 +1,4 @@
-# Data Portfolio
+# Top UK Youtubers Data Portfolio
 ![excel-to-powerbi-animated-diagram](assets/images/kaggle_to_powerbi (2).gif)
 
 
@@ -285,7 +285,7 @@ HAVING
 
 - What does the dashboard look like?
 
-![GIF of Power BI Dashboard](assets/images/Powerbi Dashboard.png)
+![Power BI Dashboard](assets/images/Powerbi Dashboard.png)
 
 This shows the Top UK Youtubers in 2024 so far.
 
