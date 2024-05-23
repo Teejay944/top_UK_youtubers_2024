@@ -248,7 +248,36 @@ FROM
 
 ```
 
-![Row count check](assets/images/1_row_count_check.png)
+![Row count check](assets/images/Row Count check.png)
+
+## Duplicate count check
+### SQL query 
+```sql
+/*
+# 1. Check for duplicate rows in the view
+# 2. Group by the channel name
+# 3. Filter for groups with more than one row
+*/
+
+-- 1.
+SELECT 
+    channel_name,
+    COUNT(*) AS duplicate_count
+FROM
+    `sharp-crossbar-422711-v2.Project_portfolio.UK_youtube_influencers`
+
+-- 2.
+GROUP BY
+    channel_name
+
+-- 3.
+HAVING
+    COUNT(*) > 1;  
+
+```
+### Output
+![Duplicate count check](assets/images/4_duplicate_records_check.png)
+
 
 
 # Header
